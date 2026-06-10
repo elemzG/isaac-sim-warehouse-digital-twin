@@ -1,0 +1,23 @@
+# NVIDIA Omniverse / Isaac Sim
+*.usd
+*.usda
+*.usdc
+*.usdz
+**/omni.cache/
+**/.omni/
+**/kit/logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
