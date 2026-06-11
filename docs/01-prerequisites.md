@@ -9,7 +9,7 @@ Before starting, read this page fully. Hardware is the most common blocker — c
 Isaac Sim requires a **dedicated NVIDIA GPU**. A standard laptop with integrated graphics will not work — this was a confirmed blocker on this project. See [GOTCHA-001](./08-gotchas.md) and [GOTCHA-002](./08-gotchas.md).
 
 **Confirmed working (this project):**
-- GPU: NVIDIA L40S (40 GB VRAM) via AWS cloud
+- GPU: NVIDIA L40S (48 GB VRAM) via AWS cloud
 - OS: Ubuntu 22.04
 
 **Minimum recommended:**
