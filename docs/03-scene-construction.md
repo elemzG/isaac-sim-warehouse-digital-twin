@@ -1,4 +1,4 @@
-# 04 — Scene Construction
+# 03 — Scene Construction
 
 This page documents how the warehouse scene was built in this project and what was discovered during the process. It does not replace the official documentation — it points to it and adds what the official docs do not cover.
 
@@ -8,9 +8,9 @@ This page documents how the warehouse scene was built in this project and what w
 
 | Topic | Link |
 |-------|------|
-| Warehouse Creator Extension | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/ext_omni_warehouse_creator.html |
-| Static Assets and SimReady Content | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/tutorial_static_assets.html |
-| Nova Carter ROS 2 Navigation | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/ros2_tutorials/tutorial_ros2_navigation.html |
+| Warehouse Creator Extension | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/ext_omni_warehouse_creator.html |
+| Static Assets and SimReady Content | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/tutorial_static_assets.html |
+| Nova Carter ROS 2 Navigation | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/ros2_tutorials/tutorial_ros2_navigation.html |
 
 ---
 
@@ -56,17 +56,17 @@ Assets from the NVIDIA Asset Browser use centimetre scale by default while Isaac
 ### USD Prim Hierarchy Is Unorganised
 All tested NVIDIA warehouse assets — Simple Warehouse, Isaac Warehouse, and Modular Warehouse Creator output — have flat, unorganised USD stage hierarchies. Walls, ceiling, floor, and equipment share the same level with no logical grouping. This makes targeted editing very difficult.
 
-**→ See [GOTCHA-006](./06-gotchas.md)**
+**→ See [GOTCHA-007](./06-gotchas.md)**
 
 ### Warehouse Scaling Does Not Propagate to Internal Assets
 Scaling the warehouse building does not automatically scale internal assets. Every shelf, box, and piece of equipment must be manually rescaled.
 
-**→ See [GOTCHA-007](./06-gotchas.md)**
+**→ See [GOTCHA-008](./06-gotchas.md)**
 
 ### Modular Warehouse Creator Requires Reading Documentation First
 The Warehouse Creator tool will not work as expected if you attempt to use it without reading the official documentation first. Walls cannot be created without following the specific workflow.
 
-**→ See [GOTCHA-005](./06-gotchas.md)**
+**→ See [GOTCHA-006](./06-gotchas.md)**
 
 ---
 

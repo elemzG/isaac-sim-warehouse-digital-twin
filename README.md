@@ -2,9 +2,9 @@
 
 > A practical developer guide for building warehouse digital twins using NVIDIA Isaac Sim, ROS 2 Nav2, and NVIDIA cuOpt — without starting from scratch.
 
-[![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-4.5.0-76b900)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
-[![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy-blue)](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_ros.html)
-[![cuOpt](https://img.shields.io/badge/NVIDIA-cuOpt-76b900)](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/logistics_tutorial_cuopt.html)
+[![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-5.1.0-76b900)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
+[![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy-blue)](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html)
+[![cuOpt](https://img.shields.io/badge/NVIDIA-cuOpt-76b900)](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/logistics_tutorial_cuopt.html)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](./LICENSE)
 
 ---
@@ -84,7 +84,7 @@ If you are new to this toolchain, follow this path:
 | 2 | [Environment Setup](./docs/02-environment-setup.md) | Isaac Sim + ROS 2 + cuOpt installation links and gotchas |
 | 3 | [Scene Construction](./docs/03-scene-construction.md) | How to build the warehouse scene from NVIDIA examples |
 | 4 | [Fleet Simulation](./docs/04-fleet-simulation.md) | Nav2 navigation + cuOpt routing + the missing bridge |
-| 5 | [Gotchas ⚠️](./docs/06-gotchas.md) | **Read this before you get stuck** — 8 confirmed issues |
+| 5 | [Gotchas ⚠️](./docs/06-gotchas.md) | **Read this before you get stuck** — 9 confirmed issues |
 | 6 | [Gap Analysis](./docs/07-gap-analysis.md) | What is undocumented and what developers need to solve next |
 | 7 | [All Resources](./docs/05-resources.md) | Every useful link in one place |
 
@@ -92,7 +92,7 @@ If you are new to this toolchain, follow this path:
 
 ## The Most Important Document
 
-**[docs/06-gotchas.md](./docs/06-gotchas.md)** — 8 confirmed issues from hands-on development. Each one cost significant time to diagnose. Read it before you start.
+**[docs/06-gotchas.md](./docs/06-gotchas.md)** — 9 confirmed issues from hands-on development. Each one cost significant time to diagnose. Read it before you start.
 
 **[docs/07-gap-analysis.md](./docs/07-gap-analysis.md)** — 5 research gaps that represent areas where NVIDIA's documentation is limited. If you are building on this work, start here.
 
@@ -115,7 +115,7 @@ When the official documentation runs out — and it will — these are the most 
 
 ## Hardware Used
 
-This project ran on **NVIDIA L40S (40 GB VRAM)** via RMIT RACE Team AWS cloud infrastructure. See [docs/10-compute-sizing.md](./docs/10-compute-sizing.md) for GPU recommendations and cloud options.
+This project ran on **NVIDIA L40S (48 GB VRAM)** via RMIT RACE Team AWS cloud infrastructure. See [docs/08-compute-sizing.md](./docs/08-compute-sizing.md) for GPU recommendations and cloud options.
 
 ---
 

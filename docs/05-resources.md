@@ -1,4 +1,4 @@
-# 06 — Resources
+# 05 — Resources
 
 > All useful links in one place. This is the page to bookmark.
 
@@ -54,7 +54,7 @@ These are the most useful videos found during this project. YouTube tutorials fo
 |-------|------|
 | Isaac Sim Documentation Home | https://docs.isaacsim.omniverse.nvidia.com/latest/index.html |
 | Isaac Sim System Requirements | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html |
-| Isaac Sim AWS Cloud Deployment | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/installation/install_advanced_cloud_setup_aws.html |
+| Isaac Sim AWS Cloud Deployment | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_aws.html |
 | ROS 2 Installation Guide | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html |
 | ROS 2 Navigation with Nova Carter | https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/tutorial_ros2_navigation.html |
 | Nova Carter Robot Documentation | https://docs.isaacsim.omniverse.nvidia.com/latest/assets/nova_carter_landing_page.html |
@@ -62,10 +62,10 @@ These are the most useful videos found during this project. YouTube tutorials fo
 ### Warehouse Logistics
 | Topic | Link |
 |-------|------|
-| Warehouse Logistics Extension | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/index.html |
-| Static Warehouse Assets Tutorial | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/tutorial_static_assets.html |
-| Using NVIDIA cuOpt in Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
-| Occupancy Map Generation | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/ext_omni_isaac_occupancy_map.html |
+| Warehouse Logistics Extension | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/index.html |
+| Static Warehouse Assets Tutorial | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/tutorial_static_assets.html |
+| Using NVIDIA cuOpt in Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
+| Occupancy Map Generation | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/ext_omni_isaac_occupancy_map.html |
 
 ---
 

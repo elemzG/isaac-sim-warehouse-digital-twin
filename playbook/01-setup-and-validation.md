@@ -21,9 +21,9 @@
 | Step | Official Guide |
 |------|---------------|
 | Isaac Sim installation | https://docs.isaacsim.omniverse.nvidia.com/latest/index.html |
-| Isaac Sim on AWS | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/installation/install_advanced_cloud_setup_aws.html |
+| Isaac Sim on AWS | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_aws.html |
 | ROS 2 installation | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html |
-| cuOpt setup | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
+| cuOpt setup | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
 
 ---
 

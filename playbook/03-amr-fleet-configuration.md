@@ -10,9 +10,9 @@
 | Topic | Official Guide |
 |-------|---------------|
 | ROS 2 Navigation with Nova Carter | https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/tutorial_ros2_navigation.html |
-| ROS 2 Bridge Overview | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/ros2_tutorials/ros2_landing_page.html |
-| Occupancy Map Generation | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/ext_omni_isaac_occupancy_map.html |
-| cuOpt with Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
+| ROS 2 Bridge Overview | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/ros2_tutorials/ros2_landing_page.html |
+| Occupancy Map Generation | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/ext_omni_isaac_occupancy_map.html |
+| cuOpt with Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
 | Nav2 Documentation | https://docs.nav2.org/ |
 
 ---

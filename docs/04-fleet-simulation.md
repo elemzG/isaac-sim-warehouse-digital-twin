@@ -1,4 +1,4 @@
-# 05 — Fleet Simulation
+# 04 — Fleet Simulation
 
 This page documents the fleet simulation workflow used in this project — what worked, what did not, and what is still missing. It points to official documentation and adds findings not covered there.
 
@@ -8,9 +8,9 @@ This page documents the fleet simulation workflow used in this project — what 
 
 | Topic | Link |
 |-------|------|
-| ROS 2 Navigation with Nova Carter | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/ros2_tutorials/tutorial_ros2_navigation.html |
-| ROS 2 Bridge Overview | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/ros2_tutorials/ros2_landing_page.html |
-| cuOpt with Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/logistics_tutorial_cuopt.html |
+| ROS 2 Navigation with Nova Carter | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/ros2_tutorials/tutorial_ros2_navigation.html |
+| ROS 2 Bridge Overview | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/ros2_tutorials/ros2_landing_page.html |
+| cuOpt with Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/logistics_tutorial_cuopt.html |
 | Nav2 Documentation | https://docs.nav2.org/ |
 
 ---

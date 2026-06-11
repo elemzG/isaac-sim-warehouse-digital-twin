@@ -28,9 +28,9 @@ Isaac Sim requires a **dedicated NVIDIA GPU**. A standard laptop with integrated
 |----------|---------------------------|
 | NVIDIA Isaac Sim | https://docs.isaacsim.omniverse.nvidia.com/latest/index.html |
 | Isaac Sim System Requirements | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html |
-| Isaac Sim on AWS (cloud) | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/installation/install_advanced_cloud_setup_aws.html |
+| Isaac Sim on AWS (cloud) | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_aws.html |
 | ROS 2 Installation (via Isaac Sim) | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html |
-| NVIDIA cuOpt | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
+| NVIDIA cuOpt | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/logistics_tutorial_cuopt.html |
 
 ---
 
@@ -71,6 +71,6 @@ The full Industrial Digital Twins learning path is available here:
 
 - Confirm your GPU meets requirements **before** installing anything
 - If using institutional cloud access, request it in Week 1 — approval can take 1–2 weeks
-- YouTube tutorials for Isaac Sim warehouse work are very limited — a small number of useful ones exist (see [docs/06-resources.md](./06-resources.md))
+- YouTube tutorials for Isaac Sim warehouse work are very limited — a small number of useful ones exist (see [docs/05-resources.md](./05-resources.md))
 - The **NVIDIA Developer Forums** is your most important resource when official docs run out: https://forums.developer.nvidia.com/c/omniverse/isaac-sim/
 - Expect to spend significant time learning by doing — the official docs are good for individual components but do not show how to connect everything together

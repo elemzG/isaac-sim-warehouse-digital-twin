@@ -40,8 +40,8 @@ This project worked through all of these challenges and documented the findings.
 
 The cuOpt ↔ Nav2 bridge is the critical missing piece. cuOpt generates optimal routes and Nav2 navigates robots — but no documented method exists for connecting the two. This is the most significant research finding of the project and is documented in detail in [docs/09-gap-analysis.md](./09-gap-analysis.md).
 
-Two hardware blockers also affected the project timeline:
-- **Blocker 1 (Weeks 3–5):** Local laptop could not run Isaac Sim — resolved by provisioning RMIT RACE Team AWS cloud instance
+Two hardware blockers affected the project timeline:
+- **Blocker 1 (Weeks 3–5):** Local laptop could not run Isaac Sim — resolved by provisioning RMIT RACE Team AWS cloud instance (NVIDIA L40S, 48 GB VRAM)
 - **Blocker 2 (Weeks 10–12):** AWS GPU unavailable due to global chip shortage — all development halted for nearly 3 weeks
 
 ---

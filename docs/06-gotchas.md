@@ -1,4 +1,4 @@
-# 08 — Gotchas ⚠️
+# 06 — Gotchas ⚠️
 
 > **Read this before you start.** Every entry here came from direct hands-on experience during this 14-week project. Each one cost significant time to diagnose. The goal is to save you that time.
 
@@ -12,10 +12,11 @@
 | [GOTCHA-002](#gotcha-002) | Isaac Sim cannot run on standard laptops | Environment | 🔴 Blocker |
 | [GOTCHA-003](#gotcha-003) | NVIDIA Asset Browser not visible by default | Environment | 🟡 Time sink |
 | [GOTCHA-004](#gotcha-004) | Isaac Sim on AWS is a manual, multi-step process | Environment | 🟡 Time sink |
-| [GOTCHA-005](#gotcha-005) | Modular Warehouse Creator requires reading docs first | Scene Construction | 🟡 Time sink |
-| [GOTCHA-006](#gotcha-006) | USD prims in NVIDIA warehouse assets are not organised | Scene Construction | 🔴 Blocker |
-| [GOTCHA-007](#gotcha-007) | Warehouse scaling does not propagate to internal assets | Scene Construction | 🟡 Time sink |
-| [GOTCHA-008](#gotcha-008) | AWS GPU unavailable due to global chip shortage | Infrastructure | 🔴 Blocker |
+| [GOTCHA-005](#gotcha-005) | NVIDIA SimReady assets use centimetre scale by default | Scene Construction | 🟡 Time sink |
+| [GOTCHA-006](#gotcha-006) | Modular Warehouse Creator requires reading docs first | Scene Construction | 🟡 Time sink |
+| [GOTCHA-007](#gotcha-007) | USD prims in NVIDIA warehouse assets are not organised | Scene Construction | 🔴 Blocker |
+| [GOTCHA-008](#gotcha-008) | Warehouse scaling does not propagate to internal assets | Scene Construction | 🟡 Time sink |
+| [GOTCHA-009](#gotcha-009) | AWS GPU unavailable due to global chip shortage | Infrastructure | 🔴 Blocker |
 
 ---
 
@@ -38,7 +39,7 @@
 - **Root Cause:** Most laptops do not have a dedicated NVIDIA RTX GPU. NVIDIA's documentation does not prominently highlight this before you invest time in installation.
 - **Fix:** Use a cloud GPU instance. Options include NVIDIA Brev, AWS EC2 (g4dn.xlarge or g5.xlarge), or institutional cloud access if available. Set this up in Week 1 — not later. Approval processes take time.
 - **Impact on this project:** Caused a 2-week delay at the start.
-- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_advanced_cloud_setup_aws.html
+- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_aws.html
 
 ---
 
@@ -59,22 +60,34 @@
 - **Symptom:** The standard Isaac Sim installation steps do not work directly on an AWS instance.
 - **Root Cause:** Cloud deployment documentation is spread across multiple pages. The process is more involved than a standard workstation install.
 - **Fix:** Read the complete AWS deployment guide before starting. Do not skip steps. Allow at least one full day for combined AWS setup and Isaac Sim installation.
-- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_advanced_cloud_setup_aws.html
+- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_aws.html
 
 ---
 
 ## GOTCHA-005
+**NVIDIA SimReady assets use centimetre scale by default — assets appear very small**
+
+- **Severity:** 🟡 Time sink
+- **Discovered:** Week 5–6
+- **Symptom:** After adding NVIDIA SimReady assets (shelves, boxes, equipment) to an Isaac Sim scene, assets appear extremely small — often the size of a dot in the viewport.
+- **Root Cause:** NVIDIA SimReady assets are authored in centimetre units. Isaac Sim uses metres. The scale difference is 100x — a 2m shelf appears as 0.02m.
+- **Fix:** Either set the asset's scale to `100` after placing it, or create a parent Xform prim at scale `100` and place all assets under it so they scale correctly together.
+- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/tutorial_static_assets.html
+
+---
+
+## GOTCHA-006
 **Modular Warehouse Creator — walls cannot be created without reading documentation first**
 
 - **Discovered:** Week 5 | **Resolved:** Week 6
 - **Symptom:** Attempting to use the Modular Warehouse Creator without reading the documentation produces no walls. No error message is shown.
 - **Root Cause:** The tool requires a specific workflow to be followed in order. There is no in-app guidance.
 - **Fix:** Read the complete Warehouse Creator extension documentation before attempting to use the tool.
-- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/ext_omni_warehouse_creator.html
+- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/ext_omni_warehouse_creator.html
 
 ---
 
-## GOTCHA-006
+## GOTCHA-007
 **USD prims in all NVIDIA warehouse assets are not organised by category**
 
 - **Discovered:** Week 6
@@ -82,11 +95,11 @@
 - **Root Cause:** NVIDIA warehouse assets are built for visual demonstration, not for editability. The Modular Warehouse Creator generates the same flat structure.
 - **Impact:** Very difficult to select and edit specific elements. You cannot easily move all walls or replace the ceiling without hunting through hundreds of unnamed prims.
 - **Workaround:** Manually reorganise prims after import, or accept the flat structure and edit by selecting individual prims in the viewport.
-- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/4.5.0/digital_twin/warehouse_logistics/tutorial_static_assets.html
+- **Official Reference:** https://docs.isaacsim.omniverse.nvidia.com/5.1.0/digital_twin/warehouse_logistics/tutorial_static_assets.html
 
 ---
 
-## GOTCHA-007
+## GOTCHA-008
 **Scaling a warehouse building does not automatically scale internal assets**
 
 - **Discovered:** Week 7
@@ -97,7 +110,7 @@
 
 ---
 
-## GOTCHA-008
+## GOTCHA-009
 **AWS GPU unavailable due to global chip shortage**
 
 - **Discovered:** Week 10

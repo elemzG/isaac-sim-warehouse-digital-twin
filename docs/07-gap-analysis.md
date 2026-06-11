@@ -1,4 +1,4 @@
-# 09 — Gap Analysis
+# 07 — Gap Analysis
 
 > This is the primary research output of this project. A **gap** is a point in the workflow where NVIDIA's official documentation is absent, insufficient, or stops short of what a developer actually needs to proceed.
 

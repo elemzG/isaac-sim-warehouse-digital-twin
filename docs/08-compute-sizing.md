@@ -1,4 +1,4 @@
-# 10 — Compute Sizing
+# 08 — Compute Sizing
 
 > Hardware is the first blocker most developers will hit. This page documents what was used on this project and what options are available.
 
@@ -13,7 +13,7 @@ Before anything else, check the official Isaac Sim system requirements:
 
 ## Confirmed Working Hardware (This Project)
 
-All simulation work was done on **NVIDIA L40S (40 GB VRAM)** via RMIT RACE Team AWS cloud infrastructure.
+All simulation work was done on **NVIDIA L40S (48 GB VRAM)** via RMIT RACE Team AWS cloud infrastructure.
 
 **Observed resource usage from project screenshots:**
 
@@ -34,7 +34,7 @@ The L40S is more than sufficient for this project. An RTX 4080 or A4500 (16 GB) 
 |------|-----|------|-------|
 | Minimum | NVIDIA RTX 3080 | 8 GB | Functional for simple scenes |
 | Recommended | NVIDIA RTX 4080 / A4500 | 16 GB | Comfortable for all scenes in this project |
-| Used in this project | NVIDIA L40S | 40 GB | Cloud via RMIT RACE Team AWS |
+| Used in this project | NVIDIA L40S | 48 GB | Cloud via RMIT RACE Team AWS |
 
 ---
 

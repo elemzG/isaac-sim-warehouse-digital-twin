@@ -8,8 +8,8 @@
 
 | Topic | Official Guide |
 |-------|---------------|
-| Static Warehouse Assets | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/tutorial_static_assets.html |
-| Warehouse Creator Extension | https://docs.isaacsim.omniverse.nvidia.com/4.2.0/features/warehouse_logistics/index.html |
+| Static Warehouse Assets | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/tutorial_static_assets.html |
+| Warehouse Creator Extension | https://docs.isaacsim.omniverse.nvidia.com/5.1.0/features/warehouse_logistics/index.html |
 | Nova Carter Assets | https://docs.isaacsim.omniverse.nvidia.com/latest/assets/nova_carter_landing_page.html |
 
 ---
